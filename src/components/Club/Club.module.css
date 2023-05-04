@@ -1,0 +1,33 @@
+.name {
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title {
+    margin: 2rem auto;
+    text-shadow: 2px 2px 2px #AFD3E2;
+    color: #19A7CE;
+    align-self: center;
+    font-size: 10rem;
+    letter-spacing: 0rem;
+}
+
+.club {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px 100px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+@media (min-width: 2100px) {
+    .club {
+        grid-gap: 70px 200px;
+    }
+}

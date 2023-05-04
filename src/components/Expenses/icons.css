@@ -1,0 +1,20 @@
+.bi-trash {
+    font-size: 1.5em;
+    transition: font-size 500ms ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+.bi:hover {
+    font-size: 2em;
+    color: red;
+
+}
+
+.bi {
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+    transition: font-size 500ms ease-in-out;
+    position: relative;
+    cursor: pointer;
+}

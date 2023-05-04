@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+
+.expenses {
+    padding: 1rem;
+    background-color: #AFD3E2;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+}
+
+
+
+.clubsButton {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #19A7CE;
+    background-color: #19A7CE;
+    color: white;
+    border-radius: 12px;
+    width: 100%;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 1.5rem;
+}
+
+.clubsButton:hover {
+    background-color: #19A7CE;
+    border-color: #19A7CE;
+}

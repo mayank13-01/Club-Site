@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #F6F1F1;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border: 1px solid #19A7CE;
+    background-color: #19A7CE;
+    color: white;
+    border-radius: 12px;
+}
+
+.scrollTop:hover {
+    background-color: #7f9ca8;
+    border-color: #7f9ca8;
+}
