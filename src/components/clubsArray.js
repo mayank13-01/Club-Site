@@ -34,7 +34,7 @@ export const clubsArray = [{
     image: "https://www.bmu.edu.in/wp-content/uploads/2018/12/bml-munjal-img.jpg",
     president: 'Navneet Kaur'
 }, {
-    club: 'Nss',
+    club: 'MSS',
     url: "https://majorproject-2f5f2-default-rtdb.asia-southeast1.firebasedatabase.app/nss.json",
     image: "https://www.bmu.edu.in/wp-content/uploads/2019/05/NSS-Logo.jpeg",
     president: 'Sakshee Pradhan'
